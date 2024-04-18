@@ -1,21 +1,45 @@
 ! version = 2.0
 
 + hello
-- Hello, what is your name?
+- Holla! please ent'r the four digit passcode
 
-+ _
-% hello what is your name
-- Nice to meet you <formal>!
++ 2940
+- welcometh backeth! h're art a listeth of things currently st'r'd in thy locketh'r:\n
+^ a pencil case \n
+^ the william shakespere collection \n
+^ wouldst thee liketh to taketh aught out?
 
-+ my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
++ [*] no [*]
+- Would you like to store any new belongings?
+
+
+
++ [*] shakespere [*]
+- Alright! yooo im back to your english. Anything else?
+
++ [*] pencil case [*]
+- tis gone! 
+
++ [*] my name is *
+- Nice to meet you <star>.
+- Nice meeting you <star>.
 
 + thank you
 - You are welcome
 - Welcome
 - No problem
 - No worries!
+
++ knock knock
+- Who's there?
+
++ *
+% who is there
+- <star> who?
+
++ *
+% * who
+- LOL! <star>! That's funny!
 
 + *
 - Sorry did not get what you said
