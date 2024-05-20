@@ -1,48 +1,82 @@
 ! version = 2.0
 
-+ hello
-- Holla! please ent'r the four digit passcode
 
-+ 2940
-- welcometh backeth! h're art a listeth of things currently st'r'd in thy locketh'r:\n
-^ a pencil case \n
-^ the william shakespere collection \n
-^ wouldst thee liketh to taketh aught out?
++ [*] hello [*]
+- hello curious human! What's your name? 
 
-+ [*] no [*]
-- Would you like to store any new belongings?
++ my name is *
+- Well, nice to meet you <star>! \n
+^ You're talking to- wait actually, would you like to play a little game before I reveal myself? \n
+^ <span class="hint">Please continue by saying yes (yeah, you don't have many options)</span>
 
-
-
-+ [*] shakespere [*]
-- Alright! yooo im back to your english. Anything else?
-
-+ [*] pencil case [*]
-- tis gone! 
-
-+ [*] my name is *
-- Nice to meet you <star>.
-- Nice meeting you <star>.
-
-+ thank you
-- You are welcome
-- Welcome
-- No problem
-- No worries!
-
-+ knock knock
-- Who's there?
++ [*] yes [*]
+- well, what bot do you think you're talking to right now? 
 
 + *
-% who is there
-- <star> who?
+% well what bot do you think you are talking to right now 
+- not quite! Here's your first hint! I'm familiar with the french. <span class="hint"> what do you know about the french?</span>
 
 + *
-% * who
-- LOL! <star>! That's funny!
+% not quite here is your first hint i am familiar with the french [*]
+- uhh I know that Napoleon was scared of open doors! <span class="hint"> this isn't reallly related to the game, but a fun fact right? </span>
+
 
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
-- I don't get it!
+% uhh i know that napoleon was scared of open doors [*]
+- Seriously though, who's scared of doors. lame. Want another hint? <span class="hint"> again, I really don't compute 'no'. </span>
+
+
++ *
+% seriously though who is scared of doors lame [*]
+- I'm sought after by millions! By royalty, by commoners, by everyone. Any more guesses?
+
++ *
+% i am sought after by millions by royalty by commoners by everyone any more guesses
+- hmmm how about I give you a little annecdote? I was not famous until stolen by some random guy one time and then suddenly I became big news! The dude literally hid me below his floorboard! like how dare he? Finally after he tried to sell me, I was recovered. Has that ever happened to you?
+
++ *
+% hmmm how about i give you a little annecdote i was not famous until stolen by some random guy one time and then suddenly i became big news the dude literally hid me below his floorboard like how dare he finally after he tried to sell me i was recovered has that ever happened to you
+- Ok you must know what I am by now, like what more do you want me to say! I'm a painting for godsake.
+
+> object updateBackground javascript
+    // Get title element
+    let title = document.getElementById("title");
+    
+    // Update title text
+    title.innerHTML = "MONA LISA"
+    
+    // Update background styling
+    document.body.style.backgroundImage = 'url("./monalisa.png")';
+    
+    // Return empty string
+    return ""
+< object 
+
++ *
+% ok you must know what i am by now like what more do you want me to say i am a painting for godsake
+- <call>updateBackground</call> OK, this is it! I'm Mona Lisa. well... really I'm a 'copy' but miles better. I'm the infamous Marcel Duchammp's L.H.O.O.Q. (yeah that anecdote was not about me) <span class="hint"> Do you think I look good? </span>
+
++ *
+% [*] ok this is it i am mona lisa well [*]
+- Haha. Anyways...now you should be wondering why you're talking to a 'fake'. So how about we get into that? Or do you want to start with some information about me and the cultural situation back then? \n 
+^ <span class="hint"> Please reply by either asking why or asking for information </span>
+
++ [*] why [*]
+
++ [*] information [*]
+- There are numerous copies and parodies of the Mona Lisa, including some quite bizarre ones. One of the most famous is Marcel Duchamp's L.H.O.O.Q., where he added a mustache and goatee to the Mona Lisa's face. Talk about giving her a makeover! Tell me I'm better than the orignal if you want to know more. 
+
++ [*] you are better than the orignal [*]
+- Awesome! It's a popular belief that the eyes in the Mona Lisa painting seem to follow you as you move around the room. However, this effect might just be due to the way Leonardo da Vinci mastered perspective and depth in his painting. Either way, it's a bit creepy! (I'm not like that)
+
+
++ [*] culture [*]
+- art was popular
+
+
++ [*] painting [*]
+- getting close. How about I give you a little annecdote? I was not famous until stolen by some random guy one time and then suddenly I became big news! The dude literally hid me below his floorboard! like how dare he? Finally after he tried to sell me, I was recovered. crazy right?
+
++ *
+% getting close how about i give you a little annecdote i was not famous until stolen by some random guy one time and then suddenly i became big news the dude literally hid me below his floorboard like how dare he finally after he tried to sell me i was recovered crazy right
+- ok you must know what I am by now. Like what more do you want me to say? I'm a painting for godsake. 
