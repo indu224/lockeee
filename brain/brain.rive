@@ -103,7 +103,7 @@
     title.innerHTML = "MONA LISA"
     
     // Update background styling
-    document.body.style.backgroundImage = 'url("Untitled_Artwork 3 (1).gif")';
+    document.body.style.backgroundImage = 'url("animation.gif")';
     
     // Return empty string
     return ""
@@ -117,7 +117,7 @@
     title.innerHTML = "MONA LISA"
     
     // Update background styling
-    document.body.style.backgroundImage = 'url("Untitled_Artwork 2 (1).gif")';
+    document.body.style.backgroundImage = 'url("animation1.gif")';
     
     // Return empty string
     return ""
@@ -131,7 +131,7 @@
     title.innerHTML = "MONA LISA"
     
     // Update background styling
-    document.body.style.backgroundImage = 'url("Untitled_Artwork 6 (1).gif")';
+    document.body.style.backgroundImage = 'url("animation2.gif")';
     
     // Return empty string
     return ""
