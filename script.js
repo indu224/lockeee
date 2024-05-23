@@ -34,6 +34,20 @@ function selfReply(message) {
     });
 }
 
+
+function preloadObject(url) {
+  return new Promise((resolve, reject) => {
+    const object = new Image();
+    object.onload = () => resolve();
+    object.onerror = () => reject();
+    object.src = url;
+  });
+}
+
+preloadObject('Untitled_Artwork.gif')
+preloadObject('Untitled_Artwork 2.gif')
+preloadObject('Untitled_Artwork 6.gif')
+
 function botReady() {
   bot.sortReplies();
 }

@@ -4,40 +4,48 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: 12pt;
   margin: 0;
+  letter-spacing:-1px;
   box-sizing: content-box;
 }
 
 body {
-  background-image: url('Untitled-2\ e\(5\).png');
+  background-image: url('5Untitled-2 (5).png');
+  background-size: 1500px;
+  align-items:center;
 }
 
 .title {
-  height: 1vh;
+  height: 00vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.title h1 {
-  letter-spacing: 0.75px;
-  font-size: 30pt;
-  color: rgb(164, 110, 29);
+h1 {
+  font-family: "Bebas Neue";
+  letter-spacing:-15px;
+  color: #cecdca;
+  text-transform: uppercase;
+  font-size: 80pt;
+  font-weight: 200;
 }
 
 .wrapper {
   height: 95vh;
+  margin-top: 3vh;
 }
 
 .chat {
-  background-color: rgb(239, 196, 126);
-  box-shadow: 0px 0px 0px rgb(229, 173, 70);
+  background-color: rgba(52, 46, 46, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.068);
   overflow: scroll;
   height: 100%;
   display: flex;
   flex-direction: column;
   padding: 20px 20px 20px 20px;
-  border-radius: 10px;
+  border-radius: 0px;
 }
+
+
 
 .messages {
   flex: 1 0 auto;
@@ -63,17 +71,17 @@ body {
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: rgb(130, 91, 33);
-  color: rgb(255, 208, 139);
+  background: rgba(164, 164, 164, 0.391);
+  color: rgb(0, 0, 0);
 }
 
 .messages .self {
   text-align: right;
   margin-right: 20px;
   margin-left: auto;
-  background: rgb(216, 158, 81);
-  border: 1px solid rgb(232, 185, 109);
-  color: rgb(255, 208, 139);
+  background: rgba(164, 164, 164, 0.738);
+  border: 1px solid  rgba(52, 46, 46, 0);
+  color: rgb(255, 255, 255);
 }
 
 .actions {
@@ -82,7 +90,7 @@ body {
   position: sticky;
   bottom: -1px;
   padding: 10px 0px 20px;
-  background: rgb(229, 173, 70);
+  background: rgba(164, 164, 164, 0.391);
 }
 
 .actions input {
@@ -97,7 +105,7 @@ body {
 }
 
 input:focus {
-  border-bottom: 2px solid rgb(239, 171, 76);
+  border-bottom: 2px solid rgba(164, 164, 164, 0.391);
 }
 
 .hint {
@@ -109,9 +117,9 @@ input:focus {
 
 @media all and (min-width: 720px) {
   .wrapper {
-    width: 4%;
-    height: 90vh;
-    margin: 0 auto 2.5vh;
+    width: 40vw;
+    height: 85vh;
+    margin: 0 15vh;
   }
 }
 
@@ -123,6 +131,9 @@ input:focus {
     height: 7.5vh;
   }
 }
+
+
+
 
 
 
